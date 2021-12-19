@@ -1,0 +1,33 @@
+version: 0.2
+
+env:
+  parameter-store:
+    DOCKER_USER_NAME: "/common/DOCKER_USERNAME"
+    DOCKER_PASSWORD: "/common/DOCKER_PASSWORD"
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - aws --version
+      - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
+      - REPOSITORY_URI=131231324949.dkr.ecr.eu-west-2.amazonaws.com/ts-bp-api-dev
+      - echo Logging in to Docker Hub...
+      - echo $DOCKER_PASSWORD | docker login --username $DOCKER_USER_NAME --password-stdin
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+      - IMAGE_TAG=${COMMIT_HASH:=latest}
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building the Docker image...
+      - docker build -t $REPOSITORY_URI:latest .
+      - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker images...
+      - docker push $REPOSITORY_URI:latest
+      - docker push $REPOSITORY_URI:$IMAGE_TAG
+      - printf '[{"name":"PWG-API-SERVER-CMS","imageUri":"%s"},{"name":"PWG-DEV-API-MIGRATOR","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+artifacts:
+  files: imagedefinitions.json

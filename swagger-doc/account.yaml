@@ -1,0 +1,107 @@
+paths:
+  /accounts/:
+    get:
+      tags:
+        - user-account
+      description: get user details
+      produces:
+        - application/json
+      security:
+        - bearerAuth: []
+      responses:
+        200:
+          description: success
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+    put:
+      tags:
+        - user-account
+      description: get user details
+      produces:
+        - application/json
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: body
+          name: user object
+          description: update user object
+          required: true
+          schema:
+            $ref: "#/definitions/updateUser"
+      responses:
+        200:
+          description: success
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+    delete:
+      tags:
+        - user-account
+      description: Remove User Account
+      produces:
+        - application/json
+      security:
+        - bearerAuth: []
+      responses:
+        200:
+          description: success
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+  /accounts/password:
+    put:
+      tags:
+        - user-account
+      description: update user password
+      produces:
+        - application/json
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: body
+          name: update-user-password
+          description: update user password
+          required: true
+          schema:
+            $ref: "#/definitions/updateUserPassword"
+      responses:
+        200:
+          description: successful
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+
+definitions: # Schema defination for request body
+  updateUser:
+    properties:
+      firstName:
+        type: string
+        required: false
+      lastName:
+        type: string
+        required: false
+      phoneCode:
+        type: string
+        required: false
+      contact:
+        type: number
+        required: false
+      isMemberSociety:
+        type: boolean
+        required: true
+  updateUserPassword:
+    properties:
+      oldPassword:
+        type: string
+        required: true
+      newPassword:
+        type: string
+        required: true
+      confirmNewPassword:
+        type: string
+        required: true

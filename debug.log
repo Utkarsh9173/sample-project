@@ -1,0 +1,22 @@
+2021-12-19T10:43:42.785Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-19T10:43:45.735Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-19T10:43:45.735Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-19T10:43:45.736Z|-|[31merror[39m|-|[31mNot Connected to DB[39m
+2021-12-19T10:43:45.736Z|-|[31merror[39m|-|[31mMysql package has not been found installed. Try to install it: npm install mysql --save[39m
+2021-12-19T10:44:18.042Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-19T10:44:20.939Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-19T10:44:20.939Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-19T10:44:21.075Z|-|[31merror[39m|-|[31mNot Connected to DB[39m
+2021-12-19T10:44:21.075Z|-|[31merror[39m|-|[31mER_BAD_DB_ERROR: Unknown database 'sample-project'[39m
+2021-12-19T10:45:02.170Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-19T10:45:05.500Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-19T10:45:05.500Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-19T10:45:05.563Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-19T10:45:44.803Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-19T10:45:46.546Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-19T10:45:46.546Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-19T10:45:46.579Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-19T10:45:57.823Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-19T10:46:00.084Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-19T10:46:00.085Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-19T10:46:00.126Z|-|[32minfo[39m|-|[32mConnected to DB[39m

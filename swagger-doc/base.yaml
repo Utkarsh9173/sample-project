@@ -1,0 +1,245 @@
+paths:
+  /login:
+    post:
+      tags:
+        - auth
+      description: app login
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: login
+          description: app login object
+          required: true
+          schema:
+            $ref: "#/definitions/login"
+      responses:
+        200:
+          description: login successful
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+  /register:
+    post:
+      tags:
+        - auth
+      description: app registeration
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: register
+          description: app registeration object
+          required: true
+          schema:
+            $ref: "#/definitions/register"
+      responses:
+        200:
+          description: registration successful
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+  /social-login:
+    post:
+      tags:
+        - auth
+      description: tokenises the user login from apple or google
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: user details
+          description: user details
+          required: true
+          schema:
+            $ref: "#/definitions/socialLogin"
+      responses:
+        200:
+          description: login successful
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+  /reset-password:
+    post:
+      tags:
+        - reset-password-flow
+      description: app reset password
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: reset-password
+          description: app reset password object
+          required: true
+          schema:
+            $ref: "#/definitions/resetPassword"
+      responses:
+        200:
+          description: otp sent successfully
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+  /otp-verifier:
+    get:
+      tags:
+        - reset-password-flow
+      description: reset password otp verification
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: id
+          description: user id sent in reset password API
+          required: true
+          schema:
+            type: string
+        - in: query
+          name: otp
+          description: otp sent in user's email when reset password API is hit
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: otp sent successfully
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+  /update-password:
+    post:
+      tags:
+        - reset-password-flow
+      description: app user password updation
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: update-password
+          description: app user update password object
+          required: true
+          schema:
+            $ref: "#/definitions/updatePassword"
+      responses:
+        200:
+          description: otp sent successfully
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+  /account-setup:
+    post:
+      tags:
+        - complete registration
+      description: completes users profile, adds payment, car
+      produces:
+        - application/json
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: body
+          name: account info
+          description: user details to update user's account
+          required: true
+          schema:
+            $ref: "#/definitions/accountSetup"
+      responses:
+        200:
+          description: user updated
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+  /country-codes:
+    get:
+      tags:
+        - complete registration
+      description: get countries' phone codes
+      produces:
+        - application/json
+      responses:
+        200:
+          description: success
+        400:
+          description: Bad request
+        500:
+          description: Server Error
+
+definitions: # Schema defination for request body
+  login:
+    properties:
+      email:
+        type: string
+        required: true
+      password:
+        type: string
+        required: true
+  register:
+    properties:
+      email:
+        type: string
+        required: true
+      password:
+        type: string
+        required: true
+      confirmPassword:
+        type: string
+        required: true
+  resetPassword:
+    properties:
+      email:
+        type: string
+        required: true
+  updatePassword:
+    properties:
+      id:
+        type: string
+        required: true
+      password:
+        type: string
+        required: true
+      confirmPassword:
+        type: string
+        required: true
+  accountSetup:
+    properties:
+      profile:
+        type: object
+        required: true
+        properties:
+          firstName:
+            type: string
+            required: true
+          lastName:
+            type: string
+            required: true
+          phoneCode:
+            type: string
+            required: true
+          contact:
+            type: number
+            required: true
+          isAccountSetup:
+            type: boolean
+            required: true
+          isMemberSociety:
+            type: boolean
+            required: true
+  socialLogin:
+    properties:
+      email:
+        type: string
+        required: true
+      socialPlatform:
+        type: string
+        required: true
+      socialPlatformId:
+        type: string
+        required: true
+      identityToken:
+        type: string
+        required: true
