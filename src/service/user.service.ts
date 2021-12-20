@@ -129,4 +129,16 @@ export class UserService {
 
     return reminderRepo.update(updatereminder.id, updatereminder);
   }
+
+
+  public async deleteReminder(id :string): Promise<any> {
+    const reminderRepo = getManager().getCustomRepository(ReminderRepo);
+
+    const deleteRepo = await reminderRepo.findOne(id);
+    if (!deleteRepo) {
+      throw new createError.NotFound(i18n.__("Reminder_not_found"));
+    }
+
+    return reminderRepo.delete(id);
+  }
 }

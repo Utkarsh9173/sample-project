@@ -81,3 +81,7 @@ export interface reminder {
 export interface updateReminder extends reminder{
   status: integer;
 }
+
+export interface remove {
+  id: string;
+}

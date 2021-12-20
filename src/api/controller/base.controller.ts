@@ -3,7 +3,14 @@ import i18n from "i18n";
 import { ResponseParser } from "@util/response-parser";
 import constant from "@config/constant";
 import { UserService } from "@service/user.service";
-import { Signin, Signup, forgotPassword, reminder, updateReminder } from "@type/user";
+import {
+  Signin,
+  Signup,
+  forgotPassword,
+  reminder,
+  updateReminder,
+  remove,
+} from "@type/user";
 
 export class BaseController {
   private responseParser: ResponseParser;
@@ -54,9 +61,13 @@ export class BaseController {
       body: { date, description },
     } = req;
 
-    const userId=req.user.decodedToken
+    const userId = req.user.decodedToken;
 
-    const response = await this.userService.setReminder(date,description,userId);
+    const response = await this.userService.setReminder(
+      date,
+      description,
+      userId
+    );
 
     return this.responseParser
       .setHttpCode(constant.HTTP_STATUS_CREATED)
@@ -70,6 +81,21 @@ export class BaseController {
   ): Promise<void> => {
     const params: updateReminder = req.body;
     const response = await this.userService.updateReminder(params);
+    // console.log(response);
+
+    return this.responseParser
+      .setHttpCode(constant.HTTP_STATUS_OK)
+      .setBody(response)
+      .setMessage(i18n.__("SUCCESS"))
+      .send(res);
+  };
+
+  public deleteReminder = async (
+    req: Request,
+    res: Response
+  ): Promise<void> => {
+    const id = String(req.query.id);
+    const response = await this.userService.deleteReminder(id);
     // console.log(response);
 
     return this.responseParser

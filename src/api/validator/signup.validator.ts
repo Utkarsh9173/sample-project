@@ -30,5 +30,8 @@ const reminder = Joi.object({
 
 const updateReminder = reminder.append({id: Joi.string().required(),status : Joi.number().valid(0,1,2)})
 
+const deleteReminder = Joi.object({
+ id : Joi.string().required()
+});
 
-export { idParamValidation, signupValidator, rejectValidation ,signinValidator,reminder,updateReminder};
+export { idParamValidation, signupValidator, rejectValidation ,signinValidator,reminder,updateReminder,deleteReminder};
