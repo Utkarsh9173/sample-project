@@ -216,3 +216,11 @@
 2021-12-20T06:43:21.253Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
 2021-12-20T06:43:21.253Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
 2021-12-20T06:43:21.297Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-20T06:43:50.856Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T06:43:51.798Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T06:43:51.798Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T06:43:51.832Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-20T06:44:34.228Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T06:44:36.149Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T06:44:36.149Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T06:44:36.184Z|-|[32minfo[39m|-|[32mConnected to DB[39m
