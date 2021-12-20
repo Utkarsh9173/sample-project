@@ -22,4 +22,11 @@ const signinValidator = Joi.object({
  
 });
 
-export { idParamValidation, signupValidator, rejectValidation ,signinValidator};
+
+const reminder = Joi.object({
+  date: Joi.string().required(),
+  description: Joi.string().required(),
+});
+
+
+export { idParamValidation, signupValidator, rejectValidation ,signinValidator,reminder};

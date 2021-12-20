@@ -5,6 +5,7 @@ import { AuthenticateRequest } from "@middleware/authenticate-request";
 import {
   signupValidator,
   signinValidator,
+  reminder,
 } from "@api/validator/signup.validator";
 
 class BaseRoute {
@@ -32,9 +33,12 @@ class BaseRoute {
       this.httpRequestValidator.validate("body", signinValidator),
       this.baseController.Signin
     );
+    this.router.post("/forgotPassword", this.baseController.forgotPassword);
     this.router.post(
-      "/forgotPassword",
-      this.baseController.forgotPassword
+      "/reminder",
+      this.authenticate,
+      this.httpRequestValidator.validate("body",reminder),
+      this.baseController.setReminder
     );
   }
 }

@@ -1,4 +1,5 @@
 import { SocialPlatforms } from "@database/enum/user";
+import { UserDetails } from "@database/model/userdetails.model";
 
 export interface BasicUserDetailResponse {
   email: string;
@@ -69,7 +70,10 @@ export interface Signin {
   email: string;
   password: string;
 }
-export interface forgotPassword extends Signin{
-
-  
+export interface forgotPassword extends Signin {}
+export interface reminder {
+  id: string;
+  userId: UserDetails;
+  description: string;
+  date: Date;
 }

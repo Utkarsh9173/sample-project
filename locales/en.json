@@ -41,5 +41,6 @@
 	"slots_not_available": "No slots are available",
 	"email_verified": "email_verified",
 	"user_created": "user_created",
-	"invalid_credentials": "invalid_credentials"
+	"invalid_credentials": "invalid_credentials",
+	"reminder already exist at this time": "reminder already exist at this time"
 }

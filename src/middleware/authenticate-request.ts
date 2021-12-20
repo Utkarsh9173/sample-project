@@ -9,6 +9,7 @@ import { ResponseParser } from "@util/response-parser";
 import constant from "@config/constant";
 import logger from "@core/logger";
 import { JWT_SECRET } from "@config/secret";
+import { UsersDetails } from "@database/repository/UserDetails.repository";
 
 declare module "express" {
   export interface Request {
@@ -46,7 +47,7 @@ export class AuthenticateRequest {
     if (!decodedToken) {
       throw new createError.Unauthorized(i18n.__("invalidToken"));
     }
-    req.user = JSON.parse(decodedToken.toString());
+    req.user =  {decodedToken} ;
 
     next();
   }

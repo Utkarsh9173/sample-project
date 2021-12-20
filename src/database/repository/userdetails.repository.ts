@@ -14,5 +14,6 @@ export class UsersDetails extends Repository<UserDetails> {
         });
         return user;
       }
+    
 
 }
