@@ -1,5 +1,6 @@
 import { SocialPlatforms } from "@database/enum/user";
 import { UserDetails } from "@database/model/userdetails.model";
+import { integer } from "aws-sdk/clients/cloudfront";
 
 export interface BasicUserDetailResponse {
   email: string;
@@ -78,5 +79,5 @@ export interface reminder {
   date: Date;
 }
 export interface updateReminder extends reminder{
-  
+  status: integer;
 }

@@ -28,7 +28,7 @@ const reminder = Joi.object({
   description: Joi.string().required(),
 });
 
-const updateReminder = reminder.append({id: Joi.string().required()})
+const updateReminder = reminder.append({id: Joi.string().required(),status : Joi.number().valid(0,1,2)})
 
 
 export { idParamValidation, signupValidator, rejectValidation ,signinValidator,reminder,updateReminder};

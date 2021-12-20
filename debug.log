@@ -1151,3 +1151,88 @@
 [34m  role: 'Admin',[39m
 [34m  iat: 1640018987[39m
 [34m}[39m
+2021-12-20T18:41:29.612Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T18:41:34.604Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T18:41:34.604Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T18:41:34.657Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-20T18:47:18.814Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T18:47:20.931Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T18:47:20.931Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T18:47:21.070Z|-|[31merror[39m|-|[31mNot Connected to DB[39m
+2021-12-20T18:47:21.070Z|-|[31merror[39m|-|[31mData type "Object" in "Reminder.status" is not supported by "mysql" database.[39m
+2021-12-20T18:47:21.495Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T18:47:22.490Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T18:47:22.491Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T18:47:22.537Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-20T18:50:03.432Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T18:50:05.039Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T18:50:05.040Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T18:50:05.079Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-20T18:51:58.672Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T18:52:00.323Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T18:52:00.324Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T18:52:00.372Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-20T18:52:11.706Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T18:52:13.786Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T18:52:13.787Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T18:52:13.882Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-20T18:52:16.690Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T18:52:17.593Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T18:52:17.593Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T18:52:17.628Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-20T18:58:07.173Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '300d5975-3006-4e65-8684-15ac8f30213d',[39m
+[34m  email: 'mayday@abc.com',[39m
+[34m  Name: 'Mayday',[39m
+[34m  password: '$2b$10$f.JCDRKDQC8WVqUvTsjPaeMjXt/Z7cQwJObY0IMlFjj7aAzOSQm12',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640018987[39m
+[34m}[39m
+2021-12-20T18:58:17.383Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '300d5975-3006-4e65-8684-15ac8f30213d',[39m
+[34m  email: 'mayday@abc.com',[39m
+[34m  Name: 'Mayday',[39m
+[34m  password: '$2b$10$f.JCDRKDQC8WVqUvTsjPaeMjXt/Z7cQwJObY0IMlFjj7aAzOSQm12',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640018987[39m
+[34m}[39m
+2021-12-20T18:59:45.503Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T18:59:47.456Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T18:59:47.456Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T18:59:47.504Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-20T19:00:20.615Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '300d5975-3006-4e65-8684-15ac8f30213d',[39m
+[34m  email: 'mayday@abc.com',[39m
+[34m  Name: 'Mayday',[39m
+[34m  password: '$2b$10$f.JCDRKDQC8WVqUvTsjPaeMjXt/Z7cQwJObY0IMlFjj7aAzOSQm12',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640018987[39m
+[34m}[39m
+2021-12-20T19:00:21.202Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-20T19:00:22.992Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-20T19:00:22.992Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-20T19:00:23.036Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-20T19:01:15.833Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '300d5975-3006-4e65-8684-15ac8f30213d',[39m
+[34m  email: 'mayday@abc.com',[39m
+[34m  Name: 'Mayday',[39m
+[34m  password: '$2b$10$f.JCDRKDQC8WVqUvTsjPaeMjXt/Z7cQwJObY0IMlFjj7aAzOSQm12',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640018987[39m
+[34m}[39m
+2021-12-20T19:01:46.076Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '300d5975-3006-4e65-8684-15ac8f30213d',[39m
+[34m  email: 'mayday@abc.com',[39m
+[34m  Name: 'Mayday',[39m
+[34m  password: '$2b$10$f.JCDRKDQC8WVqUvTsjPaeMjXt/Z7cQwJObY0IMlFjj7aAzOSQm12',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640018987[39m
+[34m}[39m
+2021-12-20T19:01:53.267Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '300d5975-3006-4e65-8684-15ac8f30213d',[39m
+[34m  email: 'mayday@abc.com',[39m
+[34m  Name: 'Mayday',[39m
+[34m  password: '$2b$10$f.JCDRKDQC8WVqUvTsjPaeMjXt/Z7cQwJObY0IMlFjj7aAzOSQm12',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640018987[39m
+[34m}[39m
