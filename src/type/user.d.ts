@@ -77,3 +77,6 @@ export interface reminder {
   description: string;
   date: Date;
 }
+export interface updateReminder extends reminder{
+  
+}

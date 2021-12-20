@@ -4,7 +4,13 @@ import createError from "http-errors";
 import i18n from "i18n";
 import constant from "@config/constant";
 import { v4 } from "uuid";
-import { Signin, Signup, forgotPassword, reminder } from "@type/user";
+import {
+  Signin,
+  Signup,
+  forgotPassword,
+  reminder,
+  updateReminder,
+} from "@type/user";
 import { UsersDetails } from "@database/repository/UserDetails.repository";
 import { ReminderRepo } from "@database/repository/reminder.repository";
 import jwt from "jsonwebtoken";
@@ -111,5 +117,16 @@ export class UserService {
       user,
       id,
     });
+  }
+
+  public async updateReminder(updatereminder: updateReminder): Promise<any> {
+    const reminderRepo = getManager().getCustomRepository(ReminderRepo);
+
+    const updateRepo = await reminderRepo.findOne(updatereminder.id);
+    if (!updateRepo) {
+      throw new createError.NotFound(i18n.__("Reminder_not_found"));
+    }
+
+    return reminderRepo.update(updatereminder.id, updatereminder);
   }
 }
