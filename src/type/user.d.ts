@@ -64,3 +64,12 @@ export interface Signup {
   name: string;
   role: string;
 }
+
+export interface Signin {
+  email: string;
+  password: string;
+}
+export interface forgotPassword extends Signin{
+
+  
+}

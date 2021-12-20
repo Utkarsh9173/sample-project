@@ -16,4 +16,10 @@ const rejectValidation = Joi.object({
   reason: requiredStringValidation("reason"),
 });
 
-export { idParamValidation, signupValidator, rejectValidation };
+const signinValidator = Joi.object({
+  email: Joi.string().email().message("Not A valid Email"),
+  password: requiredStringValidation("password").min(6).max(10),
+ 
+});
+
+export { idParamValidation, signupValidator, rejectValidation ,signinValidator};

@@ -40,5 +40,6 @@
 	"same_day_booking": "Same car can not be booked more than once in a single day",
 	"slots_not_available": "No slots are available",
 	"email_verified": "email_verified",
-	"user_created": "user_created"
+	"user_created": "user_created",
+	"invalid_credentials": "invalid_credentials"
 }

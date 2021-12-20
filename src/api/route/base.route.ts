@@ -1,17 +1,11 @@
 import express from "express";
 import { BaseController } from "@api/controller/base.controller";
 import { HttpRequestValidator } from "@middleware/http-request-validator";
-import {
-  accountSetup,
-  login,
-  register,
-  resetPassword,
-  socialLogin,
-  updatePassword,
-  verifyOtp,
-} from "@api/validator/base.validator";
 import { AuthenticateRequest } from "@middleware/authenticate-request";
-import { signupValidator } from "@api/validator/signup.validator";
+import {
+  signupValidator,
+  signinValidator,
+} from "@api/validator/signup.validator";
 
 class BaseRoute {
   public router: express.Router = express.Router();
@@ -32,6 +26,15 @@ class BaseRoute {
       "/signup",
       this.httpRequestValidator.validate("body", signupValidator),
       this.baseController.Signup
+    );
+    this.router.post(
+      "/signin",
+      this.httpRequestValidator.validate("body", signinValidator),
+      this.baseController.Signin
+    );
+    this.router.post(
+      "/forgotPassword",
+      this.baseController.forgotPassword
     );
   }
 }
