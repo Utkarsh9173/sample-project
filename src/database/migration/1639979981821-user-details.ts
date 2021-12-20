@@ -9,10 +9,9 @@ export class users1608788393127 implements MigrationInterface {
         columns: [
           {
             name: "id",
-            type: "uuid",
+            type: "varchar",
             isPrimary: true,
             isNullable: false,
-            default: "uuid_generate_v4()",
           },
           {
             name: "email",
@@ -26,47 +25,26 @@ export class users1608788393127 implements MigrationInterface {
             isNullable: true,
           },
           {
-            name: "first_name",
+            name: "name",
             type: "varchar",
             isNullable: true,
-          },
-          {
-            name: "last_name",
+          },{
+            name: "role",
             type: "varchar",
             isNullable: true,
-          },
-          {
-            name: "dob",
-            type: "varchar",
-            isNullable: true,
-          },
-          {
-            name: "marketing",
-            type: "varchar",
-            isNullable: true,
-          },
-          {
-            name: "user_unique_key",
-            type: "varchar",
-            isNullable: true,
-          },
-          {
-            name: "is_verified",
-            type: "varchar",
-            isNullable: false,
-            default: false
+            isUnique: false,
           },
           {
             name: "created_at",
-            type: "timestamptz",
+            type: "datetime",
             isNullable: false,
-            default: "now()",
+            default: "CURRENT_TIMESTAMP",
           },
           {
             name: "updated_at",
-            type: "timestamptz",
+            type: "datetime",
             isNullable: false,
-            default: "now()",
+            default: "CURRENT_TIMESTAMP",
           },
         ],
       })

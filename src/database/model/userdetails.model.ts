@@ -1,21 +1,26 @@
 import {
+  PrimaryGeneratedColumn,
   Column,
   Entity,
-  PrimaryGeneratedColumn,
   CreateDateColumn,
   UpdateDateColumn,
 } from "typeorm";
 
-@Entity("cms_users")
-export class CmsUser {
+@Entity("users")
+export class UserDetails {
   @PrimaryGeneratedColumn("uuid")
   public id: string;
-
   @Column()
   public email: string;
 
   @Column()
+  public Name: string;
+
+  @Column()
   public password: string;
+
+  @Column()
+  public role: string;
 
   @CreateDateColumn({
     select: false,

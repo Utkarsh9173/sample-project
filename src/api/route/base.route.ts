@@ -8,9 +8,10 @@ import {
   resetPassword,
   socialLogin,
   updatePassword,
-  verifyOtp
+  verifyOtp,
 } from "@api/validator/base.validator";
 import { AuthenticateRequest } from "@middleware/authenticate-request";
+import { signupValidator } from "@api/validator/signup.validator";
 
 class BaseRoute {
   public router: express.Router = express.Router();
@@ -27,7 +28,6 @@ class BaseRoute {
   }
 
   private assign() {
-
     this.router.post(
       "/register",
       this.httpRequestValidator.validate("body", register),
@@ -35,10 +35,10 @@ class BaseRoute {
     );
 
     this.router.get(
-        "/user-email-verification/:uniqueKey",
-        // this.httpRequestValidator.validate("query", verifyOtp),
-        this.baseController.verifyUserEmail
-      );
+      "/user-email-verification/:uniqueKey",
+      // this.httpRequestValidator.validate("query", verifyOtp),
+      this.baseController.verifyUserEmail
+    );
 
     this.router.post(
       "/login",
@@ -80,6 +80,12 @@ class BaseRoute {
 
     // this.router.get("/country-codes", this.baseController.getCountryCodes);
     this.router.get("/", this.baseController.defaultCheck);
+
+    this.router.post(
+      "/signup",
+      this.httpRequestValidator.validate("body", signupValidator),
+      this.baseController.Signup
+    );
   }
 }
 

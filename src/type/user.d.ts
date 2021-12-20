@@ -1,4 +1,3 @@
-
 import { SocialPlatforms } from "@database/enum/user";
 
 export interface BasicUserDetailResponse {
@@ -38,14 +37,13 @@ export interface SocialLoginUser {
   identityToken?: string;
 }
 
-
 export interface AccountSetupData {
   profile: UserProfile;
   paymentCard: Array<unknown> | null;
 }
 
 export interface RegisterUser {
-  id: string,
+  id: string;
   email: string;
   firstName?: string;
   lastName?: string;
@@ -57,4 +55,12 @@ export interface RegisterUser {
 
 export interface UserEmailVerification extends RegisterUser {
   message: string;
+}
+
+export interface Signup {
+  id: string;
+  email: string;
+  password: string;
+  name: string;
+  role: string;
 }
