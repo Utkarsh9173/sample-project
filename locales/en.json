@@ -43,5 +43,8 @@
 	"user_created": "user_created",
 	"invalid_credentials": "invalid_credentials",
 	"reminder already exist at this time": "reminder already exist at this time",
-	"Reminder_not_found": "Reminder_not_found"
+	"Reminder_not_found": "Reminder_not_found",
+	"user_already _exist": "user_already _exist",
+	"Reminder Found": "Reminder Found",
+	"Reminder Not Found": "Reminder Not Found"
 }

@@ -1,4 +1,4 @@
-import { getManager } from "typeorm";
+import { getManager , DeepPartial, getRepository} from "typeorm";
 import bcrypt from "bcrypt";
 import createError from "http-errors";
 import i18n from "i18n";
@@ -16,6 +16,7 @@ import { ReminderRepo } from "@database/repository/reminder.repository";
 import jwt from "jsonwebtoken";
 import { JWT_SECRET } from "@config/secret";
 import { resetPassword } from "@api/validator/base.validator";
+import { Reminder } from "../database/model/reminder.model";
 
 export class UserService {
   constructor() {}
@@ -45,7 +46,7 @@ export class UserService {
 
     const activeUser = await userRepository.findUserByEmailId(user.email);
     if (activeUser) {
-      throw new createError.NotFound(i18n.__("user_not_found"));
+      throw new createError.NotFound(i18n.__("user_already _exist"));
     }
 
     return userRepository.save(user);
@@ -93,7 +94,10 @@ export class UserService {
   public async setReminder(
     date: Date,
     description: string,
-    userId: any
+    userId: any,
+    type :string,
+    priority:string,
+    
   ): Promise<any> {
     const userRepo = getManager().getCustomRepository(UsersDetails);
     const reminderRepo = getManager().getCustomRepository(ReminderRepo);
@@ -113,23 +117,23 @@ export class UserService {
     const id = v4();
     return reminderRepo.save({
       description,
+      type,
+      priority,
       date,
       user,
       id,
     });
   }
 
-  public async updateReminder(updatereminder: updateReminder): Promise<any> {
-    const reminderRepo = getManager().getCustomRepository(ReminderRepo);
+  public async updateReminder(updatereminder: updateReminder ): Promise<any> {
+    const updateRepo = getRepository(Reminder).findOne(updatereminder.id)
 
-    const updateRepo = await reminderRepo.findOne(updatereminder.id);
+    
     if (!updateRepo) {
       throw new createError.NotFound(i18n.__("Reminder_not_found"));
     }
-
-    return reminderRepo.update(updatereminder.id, updatereminder);
+    return getRepository(Reminder).update(updatereminder.id,updatereminder)
   }
-
 
   public async deleteReminder(id :string): Promise<any> {
     const reminderRepo = getManager().getCustomRepository(ReminderRepo);
@@ -142,3 +146,8 @@ export class UserService {
     return reminderRepo.delete(id);
   }
 }
+function QueryDeepPartialEntity<T>(): import("typeorm/query-builder/QueryPartialEntity").QueryDeepPartialEntity<import("../database/model/reminder.model").Reminder> {
+  throw new Error("Function not implemented.");
+}
+
+

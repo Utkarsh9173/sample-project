@@ -76,7 +76,8 @@ export interface reminder {
   id: string;
   userId: UserDetails;
   description: string;
-  date: Date;
+  priority: string;
+  type:string;
 }
 export interface updateReminder extends reminder{
   status: integer;
@@ -84,4 +85,7 @@ export interface updateReminder extends reminder{
 
 export interface remove {
   id: string;
+}
+export interface findReminder{
+  user_id: string;
 }

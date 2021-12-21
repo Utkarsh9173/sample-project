@@ -8,6 +8,7 @@ import {
   reminder,
   updateReminder,
   deleteReminder,
+  getReminder,
 } from "@api/validator/signup.validator";
 
 class BaseRoute {
@@ -47,6 +48,12 @@ class BaseRoute {
       this.authenticate,
       this.httpRequestValidator.validate("body",updateReminder),
       this.baseController.updateReminder
+    );
+    this.router.get(
+      "/getreminder",
+      this.authenticate,
+      this.httpRequestValidator.validate("query",getReminder),
+      this.baseController.getReminder
     );
     this.router.delete(
       "/deleteReminder",
