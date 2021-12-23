@@ -69,7 +69,7 @@ export class BaseController {
     req: Request,
     res: Response
   ): Promise<void> => {
-    let params: Reminderin = req.body;
+    const params: Reminderin = req.body;
     const decoded: any = req.user.decodedToken;
     params.user_id = decoded.id;
     console.log(req.user.id,"====================userid");

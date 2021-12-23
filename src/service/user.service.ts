@@ -102,7 +102,7 @@ export class UserService {
     let response;
     const userRepo = getManager().getCustomRepository(UsersDetails);
     const reminderRepo = getManager().getCustomRepository(ReminderRepo);
-    let reminderTime: any = `${reminderInfo.date} ${reminderInfo.time}`;
+    const reminderTime: any = `${reminderInfo.date} ${reminderInfo.time}`;
     // reminderTime = moment(reminderTime, "YYYY-MM-DD hh:mm A").format();
     reminderInfo.date = moment(reminderTime, 'YYYY-MM-DD hh:mm A').format();
     console.log("timeeeeeeeeeeeeee",reminderTime);
