@@ -175,7 +175,7 @@ export class UserService {
 
   public async updateReminder(updatereporeminder: updateReminder): Promise<any> {
     const updateRepo = getRepository(Reminder).findOne(updatereporeminder.id);
-
+    
     let reminderTime: any = `${updatereporeminder.date} ${updatereporeminder.time}`;
     reminderTime = moment(reminderTime, "YYYY-MM-DD hh:mm A").format();
     updatereporeminder.date =reminderTime;
