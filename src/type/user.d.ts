@@ -1,6 +1,7 @@
 import { SocialPlatforms } from "@database/enum/user";
 import { UserDetails } from "@database/model/userdetails.model";
 import { integer } from "aws-sdk/clients/cloudfront";
+import { DateTime } from "aws-sdk/clients/devicefarm";
 
 export interface BasicUserDetailResponse {
   email: string;
@@ -72,15 +73,19 @@ export interface Signin {
   password: string;
 }
 export interface forgotPassword extends Signin {}
-export interface reminder {
+export interface Reminderin {
   id: string;
-  userId: UserDetails;
+  date: Date;
+  user_id: string;
   description: string;
   priority: string;
   type:string;
+  time: DateTime;
 }
-export interface updateReminder extends reminder{
+
+export interface updateReminder extends Reminderin{
   status: integer;
+  
 }
 
 export interface remove {
@@ -88,4 +93,15 @@ export interface remove {
 }
 export interface findReminder{
   user_id: string;
+}
+
+export interface getReminder{
+  user_id: string;
+  date:Date;
+  time:Date;
+  status: number;
+
+
+  
+
 }

@@ -24,6 +24,7 @@ const signinValidator = Joi.object({
 
 const reminder = Joi.object({
   date: Joi.string().required(),
+  time: Joi.string().required(),
   description: Joi.string().required(),
   priority: Joi.string().valid("Low", "High", "Medium"),
   type: Joi.string().valid("Birthday", "Anniversaries", "Holiday", "Other"),

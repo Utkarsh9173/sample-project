@@ -46,5 +46,6 @@
 	"Reminder_not_found": "Reminder_not_found",
 	"user_already _exist": "user_already _exist",
 	"Reminder Found": "Reminder Found",
-	"Reminder Not Found": "Reminder Not Found"
+	"Reminder Not Found": "Reminder Not Found",
+	"Reminder_Created": "Reminder_Created"
 }
