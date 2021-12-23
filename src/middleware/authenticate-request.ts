@@ -8,6 +8,8 @@ import createError from "http-errors";
 import { ResponseParser } from "@util/response-parser";
 import constant from "@config/constant";
 import logger from "@core/logger";
+import { JWT_SECRET } from "@config/secret";
+import { UsersDetails } from "@database/repository/UserDetails.repository";
 
 declare module "express" {
   export interface Request {
@@ -22,7 +24,11 @@ export class AuthenticateRequest {
    * @param res
    * @param next
    */
-  public validate(req: Request, res: Response, next: NextFunction): void {
+  public async validate(
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<void> {
     const token = req.header("x-auth-token");
 
     if (!token) {
@@ -36,12 +42,12 @@ export class AuthenticateRequest {
         .send(res);
       return;
     }
-    const decodedToken = jwt.decode(token, { json: true });
+    const decodedToken = jwt.verify(token, JWT_SECRET);
     logger.debug(decodedToken);
     if (!decodedToken) {
       throw new createError.Unauthorized(i18n.__("invalidToken"));
     }
-    req.user = decodedToken;
+    req.user =  {decodedToken} ;
 
     next();
   }

@@ -1,16 +1,15 @@
 import express from "express";
 import { BaseController } from "@api/controller/base.controller";
 import { HttpRequestValidator } from "@middleware/http-request-validator";
-import {
-  accountSetup,
-  login,
-  register,
-  resetPassword,
-  socialLogin,
-  updatePassword,
-  verifyOtp
-} from "@api/validator/base.validator";
 import { AuthenticateRequest } from "@middleware/authenticate-request";
+import {
+  signupValidator,
+  signinValidator,
+  reminder,
+  updateReminder,
+  deleteReminder,
+  getReminder,
+} from "@api/validator/signup.validator";
 
 class BaseRoute {
   public router: express.Router = express.Router();
@@ -27,59 +26,41 @@ class BaseRoute {
   }
 
   private assign() {
-
     this.router.post(
-      "/register",
-      this.httpRequestValidator.validate("body", register),
-      this.baseController.register
+      "/signup",
+      this.httpRequestValidator.validate("body", signupValidator),
+      this.baseController.Signup
     );
-
-    this.router.get(
-        "/user-email-verification/:uniqueKey",
-        // this.httpRequestValidator.validate("query", verifyOtp),
-        this.baseController.verifyUserEmail
-      );
-
     this.router.post(
-      "/login",
+      "/signin",
+      this.httpRequestValidator.validate("body", signinValidator),
+      this.baseController.Signin
+    );
+    this.router.post("/forgotPassword", this.baseController.forgotPassword);
+    this.router.post(
+      "/reminder",
       this.authenticate,
-      this.httpRequestValidator.validate("body", login),
-      this.baseController.login
+      this.httpRequestValidator.validate("body",reminder),
+      this.baseController.setReminder
     );
-
-    // this.router.post(
-    //   "/reset-password",
-    //   this.httpRequestValidator.validate("body", resetPassword),
-    //   this.baseController.resetPasswordInit
-    // );
-
-    // this.router.get(
-    //   "/otp-verifier",
-    //   this.httpRequestValidator.validate("query", verifyOtp),
-    //   this.baseController.verifyResetPasswordOtp
-    // );
-
-    // this.router.post(
-    //   "/update-password",
-    //   this.httpRequestValidator.validate("body", updatePassword),
-    //   this.baseController.updatePassword
-    // );
-
-    // this.router.post(
-    //   "/account-setup",
-    //   this.authenticate,
-    //   this.httpRequestValidator.validate("body", accountSetup),
-    //   this.baseController.completeUserAccount
-    // );
-
-    // this.router.post(
-    //   "/social-login",
-    //   this.httpRequestValidator.validate("body", socialLogin),
-    //   this.baseController.socialLogin
-    // );
-
-    // this.router.get("/country-codes", this.baseController.getCountryCodes);
-    this.router.get("/", this.baseController.defaultCheck);
+    this.router.put(
+      "/updatereminder",
+      this.authenticate,
+      this.httpRequestValidator.validate("body",updateReminder),
+      this.baseController.updateReminder
+    );
+    this.router.get(
+      "/getreminder",
+      this.authenticate,
+      this.httpRequestValidator.validate("query",getReminder),
+      this.baseController.getReminder
+    );
+    this.router.delete(
+      "/deleteReminder",
+      this.authenticate,
+      this.httpRequestValidator.validate("query",deleteReminder),
+      this.baseController.deleteReminder
+    );
   }
 }
 

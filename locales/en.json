@@ -39,5 +39,13 @@
 	"booking_cannot_be_placed": "Booking cannot be placed for that day. Please contact PWG team.",
 	"same_day_booking": "Same car can not be booked more than once in a single day",
 	"slots_not_available": "No slots are available",
-	"email_verified": "email_verified"
+	"email_verified": "email_verified",
+	"user_created": "user_created",
+	"invalid_credentials": "invalid_credentials",
+	"reminder already exist at this time": "reminder already exist at this time",
+	"Reminder_not_found": "Reminder_not_found",
+	"user_already _exist": "user_already _exist",
+	"Reminder Found": "Reminder Found",
+	"Reminder Not Found": "Reminder Not Found",
+	"Reminder_Created": "Reminder_Created"
 }

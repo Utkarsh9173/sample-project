@@ -3,7 +3,6 @@ import { Application } from "express";
 import { AuthenticateRequest } from "@middleware/authenticate-request";
 
 import BaseRoute from "./base.route";
-import CmsRoute from "./cms.route";
 export class Routes {
   private authenticate;
   constructor() {
@@ -12,7 +11,6 @@ export class Routes {
   }
   public routes(app: Application): void {
     // resource and routes mapping comes here
-    app.use("/cms", CmsRoute);
     app.use(BaseRoute);
   }
 }

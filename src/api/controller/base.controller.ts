@@ -3,7 +3,23 @@ import i18n from "i18n";
 import { ResponseParser } from "@util/response-parser";
 import constant from "@config/constant";
 import { UserService } from "@service/user.service";
-import { boolean } from "@hapi/joi";
+import {
+  Signin,
+  Signup,
+  forgotPassword,
+  updateReminder,
+  remove,
+  getReminder,
+  Reminderin,
+} from "@type/user";
+import { getManager, getRepository, ILike } from "typeorm";
+import { Reminder } from "@database/model/reminder.model";
+import { ReminderRepo } from "@database/repository/reminder.repository";
+import { reminder } from "@api/validator/signup.validator";
+import { integer } from "aws-sdk/clients/cloudfront";
+import { DateTime } from "aws-sdk/clients/devicefarm";
+import moment from "moment";
+import { UsersDetails } from "@database/repository/userdetails.repository";
 
 export class BaseController {
   private responseParser: ResponseParser;
@@ -14,154 +30,204 @@ export class BaseController {
     this.userService = new UserService();
   }
 
-  public defaultCheck = (req: Request, res: Response): void => {
-    this.responseParser
+  public Signup = async (req: Request, res: Response): Promise<void> => {
+    const params: Signup = req.body;
+    const response = await this.userService.Signup(params);
+
+    return this.responseParser
+      .setHttpCode(constant.HTTP_STATUS_CREATED)
+      .setBody(response)
+      .setMessage(i18n.__("user_created"))
+      .send(res);
+  };
+
+  public Signin = async (req: Request, res: Response): Promise<void> => {
+    const params: Signin = req.body;
+    const response = await this.userService.Signin(params);
+
+    return this.responseParser
+      .setHttpCode(constant.HTTP_STATUS_CREATED)
+      .setBody(response)
+      .setMessage(i18n.__("user_created"))
+      .send(res);
+  };
+  public forgotPassword = async (
+    req: Request,
+    res: Response
+  ): Promise<void> => {
+    const params: forgotPassword = req.body;
+    const response = await this.userService.forgotPassword(params);
+    // console.log(response);
+
+    return this.responseParser
       .setHttpCode(constant.HTTP_STATUS_OK)
-      .setBody({})
+      .setBody(response)
+      .setMessage(i18n.__("SUCCESS"))
+      .send(res);
+  };
+  public setReminder = async (
+    req: Request,
+    res: Response
+  ): Promise<void> => {
+    const params: Reminderin = req.body;
+    const decoded: any = req.user.decodedToken;
+    params.user_id = decoded.id;
+    console.log(req.user.id,"====================userid");
+    console.log(params,"6666666666666666666");
+    
+    const response = await this.userService.setReminder(params);
+
+    // console.log(response);
+
+    return this.responseParser
+      .setHttpCode(constant.HTTP_STATUS_OK)
+      .setBody(response)
       .setMessage(i18n.__("SUCCESS"))
       .send(res);
   };
 
-  /**
-   * @param  {Request} req
-   * @param  {Response} res
-   * @returns void
-   */
-  public login = async (req: Request, res: Response): Promise<void> => {
-    const {
-      body: { email, password }
-    } = req;
-    const response = await this.userService.login(email, password);
-    this.responseParser
-      .setStatus(true)
+
+
+//   public setReminder = async (req: Request, res: Response): Promise<any> => {
+//     const {
+//       body: { date, description, type, priority, time },
+//     } = req;
+// console.log("=============date===",date);
+
+//     const userId = req.user.decodedToken;
+//     console.log(req.body.priority, "====================here================");
+
+//     const response = await this.userService.setReminder(
+//       date,
+//       description,
+//       userId,
+//       type,
+//       priority,
+//       time
+//     );
+
+//     return this.responseParser
+//       .setHttpCode(constant.HTTP_STATUS_CREATED)
+//       .setBody(response)
+//       .setMessage(i18n.__("Reminder_Created"))
+//       .send(res);
+//   };
+  public updateReminder = async (
+    req: Request,
+    res: Response
+  ): Promise<void> => {
+    const params: updateReminder = req.body;
+    const response = await this.userService.updateReminder(params);
+    // console.log(response);
+
+    return this.responseParser
       .setHttpCode(constant.HTTP_STATUS_OK)
       .setBody(response)
-      .setMessage(i18n.__("login_successful"))
+      .setMessage(i18n.__("SUCCESS"))
       .send(res);
   };
 
-  /**
-   * @param  {Request} req
-   * @param  {Response} res
-   * @returns void
-   */
-  public register = async (req: Request, res: Response): Promise<void> => {
-    const {
-      body: { email, password, firstName, lastName, dob, marketing }
-    } = req;
-    const response = await this.userService.register(email, password, firstName, lastName, dob, marketing);
-    this.responseParser
-      .setStatus(true)
+  public deleteReminder = async (
+    req: Request,
+    res: Response
+  ): Promise<void> => {
+    const id = String(req.query.id);
+    const response = await this.userService.deleteReminder(id);
+    // console.log(response);
+
+    return this.responseParser
+      .setHttpCode(constant.HTTP_STATUS_OK)
+      .setBody(response)
+      .setMessage(i18n.__("SUCCESS"))
+      .send(res);
+  };
+
+  public getReminder = async (req: Request, res: Response): Promise<void> => {
+    const params: getReminder = req.body;
+    const response = await this.userService.getReminder(params);
+
+    return this.responseParser
       .setHttpCode(constant.HTTP_STATUS_CREATED)
       .setBody(response)
-      .setMessage(i18n.__("signup_successful"))
+      .setMessage(i18n.__("user_created"))
       .send(res);
   };
 
-  public verifyUserEmail = async(req: Request, res: Response): Promise<void> => {
-    const { params: { uniqueKey } } = req;
-        const response = await this.userService.verifyRegisteredUserEmail(
-          uniqueKey.toString()
-        );
-        this.responseParser
-          .setStatus(true)
-          .setHttpCode(constant.HTTP_STATUS_OK)
-          .setBody(response)
-          .setMessage(i18n.__("email_verified"))
-          .send(res);
-      };
+  // public getReminder = async (req: Request, res: Response): Promise<void> => {
+  //   let response: any;
+  //   const user_id = req.query.user_id as string;
+  //   const date = req.query.date as string;
+  //   const status = JSON.parse(
+  //     req.query.status ? req.query.status.toString() : null
+  //   ) as number;
 
-  // public resetPasswordInit = async (
-  //   req: Request,
-  //   res: Response
-  // ): Promise<void> => {
-  //   const {
-  //     body: { email }
-  //   } = req;
-  //   const response = await this.userService.resetPasswordInit(email);
-  //   this.responseParser
-  //     .setStatus(true)
-  //     .setHttpCode(constant.HTTP_STATUS_OK)
-  //     .setBody(response)
-  //     .setMessage(i18n.__("otp_sent_successfully"))
-  //     .send(res);
+  //   console.log(typeof date, "====================typeof=============");
+  //   const formatterDate = moment(date).format();
+  //   const reminderRedo = getManager().getCustomRepository(ReminderRepo);
+  //   const userrepo = getManager().getCustomRepository(UsersDetails);
+  //   const userCheck = await userrepo.findOne(user_id);
+  //   if (date) {
+  //     response = await reminderRedo.find({
+  //       where: {
+  //         user: userCheck,
+  //         date: formatterDate,
+  //         status: ILike(status),
+  //       },
+  //     });
+  //     if (response.length > 0) {
+  //       console.log("=================IN ID");
+  //       //do nothing
+  //     } else {
+  //       response = await getRepository(Reminder).find({
+  //         where:{
+  //           user: userCheck,
+  //           status: ILike(status),
+  //         }
+  //     });
+  //     }
+  //   } else {
+  //     response = await getRepository(Reminder).find({
+  //       where:{
+  //         user: userCheck,
+  //         status: ILike(status),
+  //       }
+  //   });
+  //   }
+
+  //   response = await response.map((i: { date: any; formattedDate: string; formattedTime: string; }) => {
+  //     const dateTime = i.date;
+  //     i['formattedDate'] = moment(dateTime).format('DD/MM/YYYY');
+  //     i['formattedTime'] = moment(dateTime).format('hh:MM A');
+  //     console.log(i);
+  //     return i;
+  //   });
+
+  //   console.log("==============================checkitout==============",response);
+
+  //   if (response.length > 0) {
+  //     console.log("=================IN adjbkcjbdkjcbskjcbsk");
+  //     this.responseParser
+  //       .setHttpCode(constant.HTTP_STATUS_CREATED)
+  //       .setBody(response)
+  //       .setMessage(i18n.__("Reminder Found"))
+  //       .send(res);
+  //   }
+  //   else{
+  //     this.responseParser
+  //       .setHttpCode(constant.HTTP_STATUS_CREATED)
+  //       .setBody(response)
+  //       .setMessage(i18n.__("Reminder Not Found"))
+  //       .send(res);
+  //   }
   // };
+}
 
-  // public verifyResetPasswordOtp = async (
-  //   req: Request,
-  //   res: Response
-  // ): Promise<void> => {
-  //   const {
-  //     query: { id: userId, otp }
-  //   } = req;
-  //   const response = await this.userService.verifyResetPasswordOtp(
-  //     userId.toString(),
-  //     otp.toString()
-  //   );
-  //   this.responseParser
-  //     .setStatus(true)
-  //     .setHttpCode(constant.HTTP_STATUS_OK)
-  //     .setBody(response)
-  //     .setMessage(i18n.__("otp_verified"))
-  //     .send(res);
-  // };
-
-  // public updatePassword = async (
-  //   req: Request,
-  //   res: Response
-  // ): Promise<void> => {
-  //   const {
-  //     body: { id, password }
-  //   } = req;
-  //   const response = await this.userService.updatePassword(id, password);
-  //   this.responseParser
-  //     .setStatus(true)
-  //     .setHttpCode(constant.HTTP_STATUS_OK)
-  //     .setBody(response)
-  //     .setMessage(i18n.__("password_updated"))
-  //     .send(res);
-  // };
-
-  // public completeUserAccount = async (
-  //   req: Request,
-  //   res: Response
-  // ): Promise<void> => {
-  //   const {
-  //     user: { id: userId },
-  //     body: accountData
-  //   } = req;
-  //   const response = await this.userService.completeUserAccount(
-  //     userId as string,
-  //     accountData
-  //   );
-
-  //   this.responseParser
-  //     .setStatus(true)
-  //     .setHttpCode(constant.HTTP_STATUS_OK)
-  //     .setBody(response)
-  //     .setMessage(i18n.__("user_updated"))
-  //     .send(res);
-  // };
-
-  // public socialLogin = async (req: Request, res: Response): Promise<void> => {
-  //   const { body: userDetails } = req;
-  //   const response = await this.userService.addUserFromSocialPlatform(
-  //     userDetails
-  //   );
-  //   this.responseParser
-  //     .setStatus(true)
-  //     .setHttpCode(constant.HTTP_STATUS_OK)
-  //     .setBody(response)
-  //     .setMessage(i18n.__("login_successful"))
-  //     .send(res);
-  // };
-
-  // public getCountryCodes = (req: Request, res: Response): void => {
-  //   this.responseParser
-  //     .setStatus(true)
-  //     .setHttpCode(constant.HTTP_STATUS_OK)
-  //     .setBody(countryCodes)
-  //     .setMessage(i18n.__("login_successful"))
-  //     .send(res);
-  // };
+function priority(
+  date: any,
+  description: any,
+  userId: unknown,
+  type: any,
+  priority: any
+) {
+  throw new Error("Function not implemented.");
 }
