@@ -74,9 +74,10 @@ export interface Signin {
 }
 export interface forgotPassword extends Signin {}
 export interface Reminderin {
+
   id: string;
   date: Date;
-  user_id: string;
+  user_id: UserDetails;
   description: string;
   priority: string;
   type:string;

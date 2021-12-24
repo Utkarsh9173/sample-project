@@ -36,7 +36,7 @@ const updateReminder = reminder.append({
 });
 
 const getReminder = Joi.object({
-  user_id: Joi.string().required(),
+  // user_id: Joi.string().required(),
   date: Joi.date().optional(),
   status: Joi.number().optional(),
 });
