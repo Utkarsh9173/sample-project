@@ -20,6 +20,8 @@ import { integer } from "aws-sdk/clients/cloudfront";
 import { DateTime } from "aws-sdk/clients/devicefarm";
 import moment from "moment";
 import { UsersDetails } from "@database/repository/userdetails.repository";
+import { string } from "@hapi/joi";
+import { Query } from "express-serve-static-core";
 
 export class BaseController {
   private responseParser: ResponseParser;
@@ -142,14 +144,28 @@ export class BaseController {
       .send(res);
   };
 
+
   public getReminder = async (req: Request, res: Response): Promise<void> => {
-    const params: getReminder = req.body;
-    const response = await this.userService.getReminder(params);
+    const decoded: any = req.user.decodedToken;
+    
+    console.log(decoded,"decoded token");
+    
+    const params: string = req.query.status as string ;
+    const datedata: string = req.query.date as string ;
+    const idinfo = decoded.id;
+
+    // const date: string = req.query.date as string;
+    // const status: string = req.query.status as string;
+    console.log("interface data",params,datedata,"====",idinfo);
+  
+    const response = await this.userService.getReminder(params,datedata,idinfo);
+    // console.log("hereeee=======",response);
+    
 
     return this.responseParser
       .setHttpCode(constant.HTTP_STATUS_CREATED)
       .setBody(response)
-      .setMessage(i18n.__("user_created"))
+      .setMessage(i18n.__("success"))
       .send(res);
   };
 

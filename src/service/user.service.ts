@@ -1,4 +1,12 @@
-import { getManager, DeepPartial, getRepository, ILike } from "typeorm";
+import {
+  getManager,
+  DeepPartial,
+  getRepository,
+  ILike,
+  getCustomRepository,
+  createQueryBuilder,
+  Connection,
+} from "typeorm";
 import bcrypt from "bcrypt";
 import createError from "http-errors";
 import i18n from "i18n";
@@ -22,7 +30,8 @@ import { time } from "console";
 import { DateTime } from "aws-sdk/clients/devicefarm";
 import moment from "moment";
 import { response } from "express";
-import { any } from "@hapi/joi";
+import { any, date } from "@hapi/joi";
+import { Query } from "express-serve-static-core";
 
 export class UserService {
   constructor() {}
@@ -104,9 +113,9 @@ export class UserService {
     const reminderRepo = getManager().getCustomRepository(ReminderRepo);
     const reminderTime: any = `${reminderInfo.date} ${reminderInfo.time}`;
     // reminderTime = moment(reminderTime, "YYYY-MM-DD hh:mm A").format();
-    reminderInfo.date = moment(reminderTime, 'YYYY-MM-DD hh:mm A').format();
-    console.log("timeeeeeeeeeeeeee",reminderTime);
-    
+    reminderInfo.date = moment(reminderTime, "YYYY-MM-DD hh:mm A").format();
+    console.log("timeeeeeeeeeeeeee", reminderTime);
+
     const user = await userRepo.findOne(reminderInfo.user_id);
     if (!user) {
       console.log("no user found!!!!!!!!!!!!!!!!!!!!!!!!!");
@@ -115,16 +124,16 @@ export class UserService {
       throw new createError.NotFound(i18n.__("user_not_found"));
     } else {
       console.log("before activeusercheck");
-      
+
       const activerem = await reminderRepo.findreminder(reminderInfo.date);
       if (activerem) {
         throw new createError.NotFound(
           i18n.__("reminder already exist at this time")
         );
       } else {
-        console.log(activerem,"user dataaaaaa");
-        
-        console.log("saving reminder!!!!!!!!!!!!!!!!!!!!!!!!!",reminderInfo);
+        console.log(activerem, "user dataaaaaa");
+
+        console.log("saving reminder!!!!!!!!!!!!!!!!!!!!!!!!!", reminderInfo);
         reminderInfo.user = user;
         console.log(JSON.stringify(reminderInfo));
         response = reminderRepo.save(reminderInfo);
@@ -134,7 +143,7 @@ export class UserService {
     return response;
   }
 
-// }
+  // }
   // public async setReminder(
   //   date: Date,
   //   description: string,
@@ -173,13 +182,16 @@ export class UserService {
   //   });
   // }
 
-  public async updateReminder(updatereporeminder: updateReminder): Promise<any> {
+  public async updateReminder(
+    updatereporeminder: updateReminder
+  ): Promise<any> {
     const updateRepo = getRepository(Reminder).findOne(updatereporeminder.id);
-    
+    console.log(updateRepo, "user table data=========");
+
     let reminderTime: any = `${updatereporeminder.date} ${updatereporeminder.time}`;
     reminderTime = moment(reminderTime, "YYYY-MM-DD hh:mm A").format();
-    updatereporeminder.date =reminderTime;
-    console.log(updatereporeminder,"===================heree==========");
+    updatereporeminder.date = reminderTime;
+    console.log(updatereporeminder, "===================heree==========");
 
     if (!updateRepo) {
       throw new createError.NotFound(i18n.__("Reminder_not_found"));
@@ -187,29 +199,80 @@ export class UserService {
     return getRepository(Reminder).save(updatereporeminder);
   }
 
-  public async getReminder(user: getReminder): Promise<any> {
-    let response;
-    const userRepository = getManager().getCustomRepository(UsersDetails);
-    const reminderRepository = getManager().getCustomRepository(ReminderRepo);
-
-    const userinfo = userRepository.find({
-      where: {
-        id: user.user_id,
-      },
-    });
-    if (userinfo) {
-      const searchedDate = reminderRepository.find({
-        where: {
-          date: user.date,
-          status: ILike(user.status),
-        },
-      });
-      response = searchedDate;
-    } else {
-      response = userinfo;
+  public async getReminder(status: string, reminderDate:any, userId: string): Promise<any> {
+      let statusClause = 'status = 0';
+      let formattedReminderDate;
+      if(status) {
+        statusClause = `status = ${status}`;
+      }
+      if(reminderDate) {
+        formattedReminderDate = moment(reminderDate,'YYYY-MM-DD').format('YYYY-M-D');
+      }
+      const userRepository = getManager().getCustomRepository(UsersDetails);
+      const reminderRepository = getManager().getCustomRepository(ReminderRepo);
+      const info: any = await reminderRepository.createQueryBuilder().where(`user_id = :userId and DATE(date) = :date and ${statusClause}`, { date: formattedReminderDate, userId }).getMany();
+      return info;
     }
-    return response;
-  }
+  
+
+
+
+
+    
+/*   
+if(statusinfo.length>0 && dateinfo.length>0){
+       console.log("writing response 1");
+       
+       response = statusinfo
+     }
+     else if (dateinfo.length>0){
+      console.log("writing response 2");
+       response= dateinfo
+     }else if(dateinfo && !dateinfo && !statusinfo){
+      console.log("writing response 3");
+      response = info
+     }
+     else{
+      response="No Reminder Found"
+     }
+     */
+
+  // public async getReminder(user: ReminderRepo): Promise<any> {
+  //   let response;
+  //   const userRepository = getManager().getCustomRepository(UsersDetails);
+  //   const reminderRepository = getManager().getCustomRepository(ReminderRepo);
+  //   console.log(user, "==============USERID");
+  //   const userinfo = await userRepository.find({
+  //     where: {
+  //       id: user,
+  //     },
+  //   });
+  //   console.log("heree==", { ...userinfo });
+  //     if (userinfo) {
+  //       console.log("entered heree");
+        
+  //     const searchedDate = reminderRepository.find({
+  //       where: {
+  //         date: date,
+  //         status: ILike(status),
+  //       },
+  //     });
+  //     console.log("number 1======",searchedDate,date,status);
+
+      
+  //     response = searchedDate;
+  //   } else {
+
+  //     const searchedDate = reminderRepository.find({
+  //       where: {
+  //         user_id:user
+  //       },
+  //     });
+  //     console.log("number 2======",searchedDate,);
+  //     response = searchedDate;
+  //   }
+  //   return response;
+  // }
 
   public async deleteReminder(id: string): Promise<any> {
     const reminderRepo = getManager().getCustomRepository(ReminderRepo);

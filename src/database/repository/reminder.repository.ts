@@ -18,6 +18,7 @@ export class ReminderRepo extends Repository<Reminder> {
     });
     return user;
   }
+  
   public async updatereminder(date: Date): Promise<Reminder> {
     console.log(date,"coming data=============");
     

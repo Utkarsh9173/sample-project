@@ -4687,3 +4687,1695 @@
 [34m  role: 'Admin',[39m
 [34m  iat: 1640072624[39m
 [34m}[39m
+2021-12-24T05:04:44.074Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:04:45.668Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:04:45.668Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:04:45.746Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:05:05.099Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:05:09.376Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:05:09.377Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:05:10.201Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:06:19.358Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:06:22.087Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:06:22.088Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:06:22.152Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:06:45.695Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:06:47.792Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:06:47.793Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:06:47.853Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:06:54.955Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T05:10:13.440Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:10:15.896Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:10:15.897Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:10:15.943Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:10:21.545Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T05:10:45.419Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '64d90583-649f-4bac-932a-f163cdae0e29',[39m
+[34m  email: 'mehul@abc.com',[39m
+[34m  Name: 'mehul',[39m
+[34m  password: '$2b$10$8vMHjP7r.Gh2DPT1YAy/SuCvivU4qkYj3NrM2Am6EH7s077UBYGna',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640254241[39m
+[34m}[39m
+2021-12-24T05:10:51.510Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '64d90583-649f-4bac-932a-f163cdae0e29',[39m
+[34m  email: 'mehul@abc.com',[39m
+[34m  Name: 'mehul',[39m
+[34m  password: '$2b$10$8vMHjP7r.Gh2DPT1YAy/SuCvivU4qkYj3NrM2Am6EH7s077UBYGna',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640254241[39m
+[34m}[39m
+2021-12-24T05:10:58.426Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T05:11:20.672Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T05:12:33.703Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:12:36.332Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:12:36.333Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:12:36.387Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:12:38.779Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T05:14:51.614Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T05:15:10.758Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T05:15:27.702Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T05:15:58.310Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '300d5975-3006-4e65-8684-15ac8f30213d',[39m
+[34m  email: 'mayday@abc.com',[39m
+[34m  Name: 'Mayday',[39m
+[34m  password: '$2b$10$f.JCDRKDQC8WVqUvTsjPaeMjXt/Z7cQwJObY0IMlFjj7aAzOSQm12',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640018987[39m
+[34m}[39m
+2021-12-24T05:16:16.360Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:16:32.550Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:20:23.288Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:20:25.454Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:20:25.454Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:20:25.501Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:20:27.728Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:21:31.629Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:21:34.010Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:21:34.011Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:21:34.064Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:21:41.020Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:26:24.759Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '64d90583-649f-4bac-932a-f163cdae0e29',[39m
+[34m  email: 'mehul@abc.com',[39m
+[34m  Name: 'mehul',[39m
+[34m  password: '$2b$10$8vMHjP7r.Gh2DPT1YAy/SuCvivU4qkYj3NrM2Am6EH7s077UBYGna',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640254241[39m
+[34m}[39m
+2021-12-24T05:26:46.216Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:28:35.817Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:28:37.981Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:28:37.982Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:28:38.028Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:28:41.267Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:28:42.055Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:28:42.056Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:28:42.091Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:28:49.270Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:31:07.559Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:31:09.745Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:31:09.745Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:31:09.787Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:31:30.821Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:31:51.096Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:31:53.090Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:31:53.091Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:31:53.127Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:32:11.063Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:32:13.352Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:32:13.353Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:32:13.392Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:32:15.341Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:32:15.866Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:32:19.110Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:32:19.111Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:32:19.165Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:32:53.610Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:32:54.414Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:32:54.414Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:32:54.446Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:33:02.588Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:34:13.941Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:34:16.207Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:34:16.207Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:34:16.250Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:34:19.649Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:34:51.671Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:34:53.651Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:34:53.652Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:34:53.708Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:34:55.231Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:41:13.066Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:41:15.567Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:41:15.567Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:41:15.677Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:41:32.836Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:41:35.127Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:41:35.128Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:41:35.175Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:41:38.381Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:42:00.733Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:42:03.206Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:42:03.206Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:42:03.252Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:42:08.410Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:42:35.280Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:43:02.990Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:43:05.628Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:43:05.628Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:43:05.684Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:43:07.951Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:43:21.538Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:43:23.528Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:43:23.528Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:43:23.560Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:43:26.152Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:43:37.738Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:46:13.161Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:46:15.052Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:46:15.052Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:46:15.166Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:46:17.964Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:46:19.329Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:46:19.960Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:46:43.831Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:46:47.699Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:46:47.700Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:46:47.799Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:46:50.502Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:48:51.646Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:48:53.984Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:48:53.985Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:48:54.035Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:49:47.911Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:49:49.949Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:49:49.950Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:49:50.000Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:49:51.375Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:49:52.388Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:49:52.389Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:49:52.431Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:51:56.580Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:51:58.985Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:51:58.985Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:51:59.042Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:52:03.250Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:52:14.639Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:52:16.819Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:52:16.819Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:52:16.878Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:52:20.166Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:52:20.998Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:52:20.998Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:52:21.029Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:52:23.441Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:54:37.166Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:54:39.138Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:54:39.139Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:54:39.175Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:54:40.350Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:55:17.323Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:55:18.149Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:55:18.149Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:55:18.183Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:55:20.862Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:58:07.299Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:58:09.623Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:58:09.624Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:58:09.672Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:58:50.322Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:58:53.618Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:58:53.618Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:58:53.694Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:59:01.637Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:59:06.865Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:59:06.865Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:59:06.984Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:59:10.197Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T05:59:51.937Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T05:59:53.800Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T05:59:53.800Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T05:59:53.842Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T05:59:55.177Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:00:03.808Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:00:46.769Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:00:47.571Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:00:47.572Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:00:47.611Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:00:50.795Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:03:20.531Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:03:22.348Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:03:22.349Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:03:22.394Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:03:35.858Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:04:42.245Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:04:44.798Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:04:44.798Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:04:44.847Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:04:51.967Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:04:52.781Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:04:52.781Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:04:52.812Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:11:40.640Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:11:43.645Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:11:43.645Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:11:43.776Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:11:50.599Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:14:26.299Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:14:28.664Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:14:28.665Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:14:28.709Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:19:41.811Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:19:44.138Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:19:44.139Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:19:44.190Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:19:57.568Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:19:59.616Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:19:59.616Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:19:59.661Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:20:08.295Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:20:09.777Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:20:09.777Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:20:09.813Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:20:11.080Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:20:11.905Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:20:11.905Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:20:11.941Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:20:14.870Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:20:33.096Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:20:34.953Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:20:34.953Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:20:34.989Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:20:36.534Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:20:37.413Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:20:37.413Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:20:37.455Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:21:11.400Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:21:13.083Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:21:13.083Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:21:13.125Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:21:15.513Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:21:23.398Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:21:24.223Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:21:24.223Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:21:24.255Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:21:28.786Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:22:27.578Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:22:29.527Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:22:29.527Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:22:29.571Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:22:36.541Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:22:37.386Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:22:37.386Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:22:37.423Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:22:41.692Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:23:26.854Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:23:28.798Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:23:28.799Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:23:28.860Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:23:31.964Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:23:32.806Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:23:32.806Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:23:32.837Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:23:36.554Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:23:53.998Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:23:55.851Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:23:55.851Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:23:55.944Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:23:57.628Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:24:16.122Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:24:18.694Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:24:18.694Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:24:18.733Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:24:21.148Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:27:27.226Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:27:29.515Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:27:29.516Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:27:29.564Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:27:31.581Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:29:00.482Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:29:02.349Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:29:02.349Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:29:02.433Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:29:04.099Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T06:29:22.045Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:29:23.971Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:29:23.971Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:29:24.006Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:29:26.197Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:30:50.325Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:30:52.008Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:30:52.008Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:30:52.057Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:31:03.484Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:31:05.975Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:31:05.975Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:31:06.047Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:32:09.515Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640327491[39m
+[34m}[39m
+2021-12-24T06:32:20.692Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640327491[39m
+[34m}[39m
+2021-12-24T06:32:54.240Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T06:33:26.307Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640072624[39m
+[34m}[39m
+2021-12-24T06:36:04.490Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: '300d5975-3006-4e65-8684-15ac8f30213d',[39m
+[34m  email: 'mayday@abc.com',[39m
+[34m  Name: 'Mayday',[39m
+[34m  password: '$2b$10$f.JCDRKDQC8WVqUvTsjPaeMjXt/Z7cQwJObY0IMlFjj7aAzOSQm12',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640018987[39m
+[34m}[39m
+2021-12-24T06:41:49.935Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:41:52.258Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:41:52.258Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:41:52.340Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:41:54.563Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:41:55.708Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:41:55.708Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:41:55.744Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:42:23.304Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:42:25.777Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:42:25.778Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:42:25.825Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:43:01.920Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:43:03.190Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:43:03.191Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:43:03.222Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:43:06.130Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:43:21.590Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:43:24.230Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:43:24.230Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:43:24.284Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:43:26.862Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:43:42.837Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:43:44.466Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:43:44.466Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:43:44.502Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:43:46.989Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:44:16.061Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:44:16.851Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:44:16.851Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:44:16.885Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:44:21.975Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:45:09.974Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:45:30.906Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:45:32.730Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:45:32.731Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:45:32.776Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:46:03.537Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:46:05.695Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:46:05.695Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:46:05.772Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:46:07.367Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:46:40.948Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:46:42.872Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:46:42.873Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:46:42.933Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:46:45.874Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:47:07.322Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:47:09.396Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:47:09.396Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:47:09.437Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:47:19.689Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:47:20.700Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:47:20.700Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:47:20.731Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:47:22.837Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:48:53.719Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:48:55.664Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:48:55.665Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:48:55.705Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:48:57.912Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:52:30.439Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:52:32.306Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:52:32.306Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:52:32.343Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:53:41.896Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:53:44.178Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:53:44.178Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:53:44.214Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:53:47.478Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:54:43.773Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:54:45.800Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:54:45.800Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:54:45.852Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:54:47.882Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:55:14.957Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:55:16.996Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:55:16.996Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:55:17.032Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:55:19.128Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:56:07.662Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:56:09.734Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:56:09.734Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:56:09.783Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:56:16.045Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:56:48.094Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:56:49.126Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:56:49.126Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:56:49.159Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:56:58.841Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:56:59.711Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:56:59.712Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:56:59.744Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:57:02.573Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:57:30.763Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:57:32.535Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:57:32.535Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:57:32.576Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:57:43.435Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:57:45.041Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:57:45.041Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:57:45.085Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:57:52.946Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:59:05.833Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:59:07.849Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:59:07.850Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:59:07.887Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:59:20.549Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:59:23.184Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:59:23.184Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:59:23.244Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:59:26.721Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:59:37.986Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T06:59:38.898Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T06:59:38.898Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T06:59:38.931Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T06:59:41.435Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T06:59:59.552Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:00:00.618Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:00:00.618Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:00:00.669Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:00:17.898Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T07:00:29.518Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:00:30.805Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:00:30.806Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:00:30.849Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:00:32.972Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'ceb8b9bd-76df-4791-a182-7cebe9b75744',[39m
+[34m  email: 'zaman@abc.com',[39m
+[34m  Name: 'zaman',[39m
+[34m  password: '$2b$10$y6aTpUnHImb/PsoNRuYrgeV5DedVh9ObvCp4qoHXlW.AKF4TaOL2y',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640150850[39m
+[34m}[39m
+2021-12-24T07:01:15.635Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:02:48.784Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:02:50.941Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:02:50.941Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:02:50.991Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:02:55.482Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:02:57.195Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:02:57.195Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:02:57.229Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:03:01.370Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:03:23.071Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:03:25.297Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:03:25.298Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:03:25.339Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:03:27.680Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:03:48.840Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:03:50.959Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:03:50.959Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:03:51.013Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:04:00.275Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:09:56.978Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:09:59.053Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:09:59.054Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:09:59.102Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:10:10.097Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:10:27.948Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:10:57.472Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640327491[39m
+[34m}[39m
+2021-12-24T07:11:04.624Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:11:22.543Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:11:27.073Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:16:23.086Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:16:25.177Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:16:25.177Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:16:25.217Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:16:27.938Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:17:01.718Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:17:03.345Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:17:03.346Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:17:03.387Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:17:09.512Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:17:11.088Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:17:11.089Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:17:11.140Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:17:19.584Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:17:20.370Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:17:20.370Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:17:20.400Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:17:24.768Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:18:58.523Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:19:00.324Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:19:00.324Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:19:00.362Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:19:02.502Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:20:34.967Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:20:37.100Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:20:37.101Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:20:37.141Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:20:39.559Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:22:15.665Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:22:18.129Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:22:18.130Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:22:18.175Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:22:20.391Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:24:16.651Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:24:18.768Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:24:18.768Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:24:18.817Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:24:23.055Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:27:05.367Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:27:07.482Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:27:07.483Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:27:07.525Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:27:11.565Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:27:21.979Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:27:28.193Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:27:32.492Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:27:35.714Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:31:33.525Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T07:31:35.696Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T07:31:35.697Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T07:31:35.750Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T07:31:39.110Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:31:45.808Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:32:06.287Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T07:32:15.974Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:25:45.634Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:25:48.653Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:25:48.653Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:25:48.749Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:25:53.442Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:26:55.466Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:26:57.471Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:26:57.471Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:26:57.514Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:27:01.094Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:27:33.903Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:27:36.508Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:27:36.508Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:27:36.563Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:27:40.494Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:28:08.443Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:28:11.056Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:28:11.057Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:28:11.122Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:28:15.159Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:30:37.518Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:30:40.104Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:30:40.104Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:30:40.165Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:30:44.119Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:32:27.185Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:32:28.995Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:32:28.995Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:32:29.031Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:32:31.543Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:38:57.693Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:38:59.774Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:38:59.775Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:38:59.827Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:39:10.750Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:42:59.206Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:43:01.607Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:43:01.607Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:43:01.658Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:43:57.395Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:43:59.739Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:43:59.740Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:43:59.788Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:44:06.103Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:44:37.210Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:47:03.691Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:47:05.886Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:47:05.886Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:47:05.937Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:47:33.732Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:47:34.612Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:47:34.613Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:47:34.653Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:47:48.570Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:47:49.477Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:47:49.477Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:47:49.510Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:48:25.993Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:48:27.830Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:48:27.830Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:48:27.884Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:48:37.399Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:48:38.306Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:48:38.306Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:48:38.336Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:48:43.521Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:48:44.415Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:48:44.415Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:48:44.448Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:48:52.284Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:48:53.288Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:48:53.288Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:48:53.322Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:48:55.224Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:49:05.659Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:49:16.890Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:49:45.892Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:49:47.851Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:49:47.851Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:49:47.904Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:49:48.944Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:50:02.790Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:50:03.598Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:50:03.598Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:50:03.630Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:50:06.349Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:50:33.626Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T08:50:34.581Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T08:50:34.582Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T08:50:34.616Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T08:50:37.266Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T08:51:13.433Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T11:39:32.465Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T11:45:04.523Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T11:45:07.359Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T11:45:07.359Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T11:45:07.497Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T11:45:12.238Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T11:45:48.748Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T11:45:50.764Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T11:45:50.764Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T11:45:50.808Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:02:52.604Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:02:54.922Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:02:54.922Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:02:55.031Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:02:58.339Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:02:59.293Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:02:59.294Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:02:59.353Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:03:04.711Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:03:32.533Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:03:33.696Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:03:33.697Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:03:33.738Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:03:38.234Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:05:14.183Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:05:16.552Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:05:16.552Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:05:16.611Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:05:36.756Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:05:49.348Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:05:50.326Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:05:50.327Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:05:50.364Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:05:51.103Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:06:26.979Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:06:28.285Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:06:28.285Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:06:28.318Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:06:46.800Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:06:47.660Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:06:47.660Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:06:47.694Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:12:19.705Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:12:21.827Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:12:21.827Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:12:21.867Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:13:24.260Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:13:26.455Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:13:26.456Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:13:26.518Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:13:27.490Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:14:14.984Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:14:17.358Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:14:17.359Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:14:17.397Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:14:17.990Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:15:18.372Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:15:20.307Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:15:20.308Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:15:20.351Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:15:21.483Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:16:48.305Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:16:49.169Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:16:49.169Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:16:49.214Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:16:50.933Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:17:01.684Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:17:02.482Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:17:02.483Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:17:02.517Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:17:05.131Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:18:50.394Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:18:52.913Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:18:52.913Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:18:52.974Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:18:54.671Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:23:49.357Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:23:51.325Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:23:51.325Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:23:51.378Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:24:26.256Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:24:28.522Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:24:28.522Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:24:28.587Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:24:44.351Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:24:46.499Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:24:46.499Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:24:46.534Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:25:05.628Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:25:07.460Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:25:07.460Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:25:07.510Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:25:12.548Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:25:13.377Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:25:13.377Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:25:13.412Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:25:16.407Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:25:34.366Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:25:35.395Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:25:35.395Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:25:35.427Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:25:36.266Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:25:51.611Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:25:52.651Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:25:52.651Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:25:52.684Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:25:53.596Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:26:17.211Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:26:18.175Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:26:18.176Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:26:18.209Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:26:22.142Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:26:23.036Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:26:23.036Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:26:23.069Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:26:26.343Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:26:27.305Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:26:27.305Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:26:27.335Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:26:31.315Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:26:36.271Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
+2021-12-24T12:26:55.205Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:26:57.529Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:26:57.529Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:26:57.591Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:27:15.269Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:27:16.197Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:27:16.197Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:27:16.228Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:27:35.154Z|-|[34mdebug[39m|-|[34mLogging initialized at debug level[39m
+2021-12-24T12:27:37.540Z|-|[32minfo[39m|-|[32mApp is running at http://localhost:3001 in development mode[39m
+2021-12-24T12:27:37.540Z|-|[32minfo[39m|-|[32mPress CTRL-C to stop[39m
+2021-12-24T12:27:37.578Z|-|[32minfo[39m|-|[32mConnected to DB[39m
+2021-12-24T12:27:40.179Z|-|[34mdebug[39m|-|[34m{[39m
+[34m  id: 'f864b31f-035c-44ba-8547-82be46b0b861',[39m
+[34m  email: 'robin@abc.com',[39m
+[34m  Name: 'robin',[39m
+[34m  password: '$2b$10$zuVO4jzCXUjuX9/GfZhnOOl6A2WSz8ZDY0b93G7D.Dz6TdSCktZ5C',[39m
+[34m  role: 'Admin',[39m
+[34m  iat: 1640329256[39m
+[34m}[39m
