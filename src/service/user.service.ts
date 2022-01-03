@@ -32,6 +32,7 @@ import moment from "moment";
 import { response } from "express";
 import { any, date } from "@hapi/joi";
 import { Query } from "express-serve-static-core";
+import { idParamValidation } from "@api/validator/common";
 
 export class UserService {
   constructor() {}
@@ -283,6 +284,25 @@ if(statusinfo.length>0 && dateinfo.length>0){
     }
 
     return reminderRepo.delete(id);
+  }
+
+  public async deleteCompletedReminder(status: string): Promise<any> {
+    const reminderRepo = getManager().getCustomRepository(ReminderRepo);
+
+    // const deleteRepo = await reminderRepo.find({
+    //   where:{
+    //     status:1
+    //   },select:[id],
+    // });
+    const deleteRepo = await reminderRepo.createQueryBuilder().select('Reminder.id').where(`status = :status`,{status}).getMany();
+    console.log(deleteRepo,"hereeee");
+
+    // const id = deleteRepo['Reminder.id']
+    if (!deleteRepo) {
+      throw new createError.NotFound(i18n.__("Reminder_not_found"));
+    }
+
+    return reminderRepo.delete(deleteRepo[0]);
   }
 }
 function QueryDeepPartialEntity<
