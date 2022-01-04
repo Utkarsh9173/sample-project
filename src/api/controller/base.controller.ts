@@ -144,6 +144,21 @@ export class BaseController {
       .send(res);
   };
 
+  public deleteCompletedReminder = async (
+    req: Request,
+    res: Response
+  ): Promise<void> => {
+    const status = String(req.query.status);
+    const response = await this.userService.deleteCompletedReminder(status);
+    // console.log(response);
+
+    return this.responseParser
+      .setHttpCode(constant.HTTP_STATUS_OK)
+      .setBody(response)
+      .setMessage(i18n.__("SUCCESS"))
+      .send(res);
+  };
+
 
   public getReminder = async (req: Request, res: Response): Promise<void> => {
     const decoded: any = req.user.decodedToken;

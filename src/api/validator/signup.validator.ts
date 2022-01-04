@@ -44,6 +44,9 @@ const getReminder = Joi.object({
 const deleteReminder = Joi.object({
   id: Joi.string().required(),
 });
+const deleteCompletedReminder = Joi.object({
+  status: Joi.string().required(),
+});
 
 
 export {
@@ -55,4 +58,5 @@ export {
   updateReminder,
   deleteReminder,
   getReminder,
+  deleteCompletedReminder,
 };

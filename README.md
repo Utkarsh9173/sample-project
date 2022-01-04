@@ -51,3 +51,36 @@ This setup is using sync option of Typeorm. So DB is automatically updated with 
 
 This project setup uses some module aliases for the ease in readbility and importing of other modules.
 Refer to `_moduleAliases` section in `package.json` for currently created module aliases. These aliases are workable in src folder only as of now
+
+
+**********************
+env file data
+
+
+NODE_ENV=development
+
+SWAGGER_URL=localhost:3001
+PORT=3001
+
+TYPEORM_CONNECTION=mysql
+TYPEORM_HOST=localhost
+TYPEORM_USERNAME=root
+TYPEORM_PASSWORD=Change@123
+TYPEORM_DATABASE= sample-project
+TYPEORM_PORT=3306
+TYPEORM_LOGGING=1
+TYPEORM_MIGRATIONS = dist/database/migration/*.js
+TYPEORM_MIGRATIONS_DIR = dist/database/migration/*.js
+
+JWT_SECRET=abc
+
+#optional, depends on project to project
+AWS_REGION=
+AWS_ACCESS_KEY=
+AWS_SECRET_ACCESS_KEY=
+AWS_SES_API_VERSION=
+FROM_EMAIL=
+
+STRIPE_API_KEY=
+****************************
+
